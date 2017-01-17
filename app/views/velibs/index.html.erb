@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guigui's VelibApp</title>
+  </head>
+  <body>
+    <h1>Mes stations :</h1>
+    <table>
+      <thead>
+        <td style="width: 300px">Nom</td>
+        <td style="width: 80px">Vélos</td>
+        <td style="width: 80px">Places</td>
+      </thead>
+      <tr>
+        <td><%= @estrees["name"] %></td>
+        <td><%= @estrees["available_bikes"] %></td>
+        <td><%= @estrees["available_bike_stands"] %></td>
+      </tr>
+      <tr>
+        <td><%= @sfx["name"] %></td>
+        <td><%= @sfx["available_bikes"] %></td>
+        <td><%= @sfx["available_bike_stands"] %></td>
+      </tr>
+      <tr>
+        <td><%= @sevres["name"] %></td>
+        <td><%= @sevres["available_bikes"] %></td>
+        <td><%= @sevres["available_bike_stands"] %></td>
+      </tr>
+      <tr>
+        <td><%= @bercy["name"] %></td>
+        <td><%= @bercy["available_bikes"] %></td>
+        <td><%= @bercy["available_bike_stands"] %></td>
+      </tr>
+      <tr>
+        <td><%= @bourgoin["name"] %></td>
+        <td><%= @bourgoin["available_bikes"] %></td>
+        <td><%= @bourgoin["available_bike_stands"] %></td>
+      </tr>
+    </table>
+  </body>
+</html>
